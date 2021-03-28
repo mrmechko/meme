@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <OCRMeme source="one.png"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import OCRMeme from './components/OCRMeme.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    OCRMeme
   }
 }
 </script>
